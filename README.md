@@ -1,512 +1,455 @@
 <div align="center">
 
-# DenxyConnect
+# ⛏️ MinecraftConnect
 
-### Multi-Game Commerce Infrastructure for Gaming Communities
+### The All-in-One Control Center for Minecraft Servers
 
-Build branded storefronts, connect multiple game servers, automate digital delivery, manage team access, and track revenue from one platform.
+**Connect. Manage. Monitor. Grow.**
 
-[Website](https://denxyconnect.com) • [Documentation](https://docs.denxyconnect.com) • [Status](https://status.denxyconnect.com) • [Support](mailto:support@denxyconnect.com)
+MinecraftConnect is being built to give Minecraft server owners one powerful dashboard for managing their server, plugins, staff, storefront, integrations, and day-to-day operations.
+
+[Website](https://minecraftconnect.com) • Documentation • Discord • Status
 
 </div>
 
 ---
 
-## About DenxyConnect
+## 👋 About MinecraftConnect
 
-DenxyConnect is an independent software-as-a-service platform being developed for game-server owners, studios, creators, and gaming communities.
+**MinecraftConnect** is an all-in-one Minecraft server management platform built for server owners who are tired of jumping between dozens of panels, plugins, websites, spreadsheets, and dashboards just to operate one community.
 
-The platform is designed to help merchants create and operate online storefronts for digital packages, memberships, subscriptions, cosmetics, ranks, server access, virtual items, and other supported digital products.
+Our goal is simple:
 
-DenxyConnect connects the complete purchase workflow:
+> **Give Minecraft server owners one place to control everything.**
 
-1. A customer visits a merchant’s storefront.
-2. The customer purchases a digital package.
-3. The payment is securely processed by an approved payment provider.
-4. DenxyConnect creates a traceable fulfillment request.
-5. The connected game-server integration delivers the purchase.
-6. The merchant can review the payment, fulfillment status, logs, and delivery history.
-
-Our goal is to make game commerce more reliable, flexible, understandable, and accessible to communities of every size.
+From connecting your Paper server and monitoring its health to managing plugins, staff, payments, storefronts, and integrations, MinecraftConnect is designed to make running a professional Minecraft server easier.
 
 ---
 
-## Our Mission
+## 🚀 What MinecraftConnect Does
 
-DenxyConnect is being built around one central promise:
+MinecraftConnect is being developed as a complete server operations dashboard.
 
-> One account, multiple games, multiple servers, and one reliable commerce system.
+### 🔌 Connect Your Minecraft Server
 
-We want server owners to maintain control over their stores without being restricted by rigid templates, disconnected tools, unclear fees, unreliable command delivery, or limited customization.
+Connect your server directly to MinecraftConnect using the official connector.
 
-DenxyConnect will focus on measurable improvements, including:
+Initial support is focused on:
 
-- Faster merchant onboarding
-- Reliable purchase fulfillment
-- Safe retry handling
-- Clear payment and payout statuses
-- Flexible package configuration
-- Better multi-server management
-- Granular team permissions
-- Transparent pricing
-- Developer-friendly integrations
-- Accessible storefront customization
+* Paper servers
+* Secure server pairing
+* Server heartbeat monitoring
+* Online/offline status
+* Minecraft version detection
+* Server platform detection
+* Player count monitoring
+* Plugin inventory syncing
+* Connector health monitoring
 
----
+The first connector will be:
 
-## Planned Platform Features
-
-### Storefront Management
-
-Merchants will be able to:
-
-- Create and manage multiple stores
-- Connect multiple game servers
-- Organize packages into categories
-- Upload product images and descriptions
-- Configure prices, stock, visibility, and availability
-- Create one-time purchases and subscriptions
-- Sell ranks, upgrades, bundles, cosmetics, and memberships
-- Create coupons, sales, and gift cards
-- Configure custom domains
-- Customize store colors, logos, pages, and themes
-- Review customers, orders, refunds, and disputes
-
-### Reliable Game Fulfillment
-
-DenxyConnect is being designed with fulfillment reliability as a core feature.
-
-Planned fulfillment capabilities include:
-
-- Unique fulfillment IDs
-- Idempotent command execution
-- Duplicate-delivery prevention
-- Durable command queues
-- Safe retry handling
-- Online-player detection
-- Server-specific command routing
-- Proxy command support
-- Backend server command support
-- Selected-server delivery
-- Current-player-server delivery
-- Offline delivery queues
-- Delivery acknowledgements
-- Fulfillment timestamps
-- Failure logs
-- Retry histories
-- Manual test fulfillment
-- Plugin and server version reporting
-
-A completed payment should not be considered fully delivered until the related fulfillment action has been recorded and acknowledged.
-
-### Multi-Game Architecture
-
-DenxyConnect will use a shared commerce platform with separate game adapters.
-
-The shared commerce system will manage:
-
-- Accounts
-- Organizations
-- Stores
-- Products
-- Orders
-- Payments
-- Refunds
-- Discounts
-- Subscriptions
-- Permissions
-- Analytics
-- Audit logs
-- API keys
-- Webhooks
-
-Each game adapter will manage game-specific requirements such as:
-
-- Server authentication
-- Player identity
-- Command syntax
-- Player lookup
-- Online-player detection
-- Fulfillment delivery
-- Delivery acknowledgement
-- Retry behavior
-- Duplicate prevention
-- Game-specific package fields
-
-The first integration is planned around Minecraft server networks. Additional games will be added after the core adapter system and fulfillment infrastructure have been validated.
+```text
+minecraftconnect-paper.jar
+```
 
 ---
 
-## Merchant Dashboard
+## 🧩 Plugin Syncer
 
-The DenxyConnect dashboard is planned to provide merchants with one central location for managing their business.
+MinecraftConnect can help you understand exactly what is installed on your server.
 
-Dashboard areas will include:
+Plugin Syncer is planned to provide:
 
-- Store overview
-- Revenue analytics
-- Recent orders
-- Package management
-- Category management
-- Customer management
-- Payment status
-- Payout status
-- Refunds and disputes
-- Connected servers
-- Fulfillment diagnostics
-- Team members
-- Roles and permissions
-- API keys
-- Webhooks
-- Audit logs
-- Store customization
-- Security settings
-- Account notifications
+* Installed plugin detection
+* Plugin version detection
+* Plugin inventory
+* Version comparisons
+* Outdated plugin warnings
+* Plugin health information
+* Compatibility information
+* Update recommendations
 
-The dashboard will also include health checks to help merchants identify configuration problems before opening their stores to customers.
+Instead of manually checking dozens of plugin pages, MinecraftConnect aims to bring that information into one dashboard.
 
 ---
 
-## Team Management
+## 🖥️ Server Control
 
-Organizations will be able to invite team members without sharing the owner’s account credentials.
+For server owners who want deeper control, MinecraftConnect is being designed to integrate with server-management infrastructure such as:
 
-Planned team controls include:
+### Pterodactyl
 
-- Role-based permissions
-- Custom team roles
-- Store-specific access
-- Server-specific access
-- Product-management permissions
-- Order-management permissions
-- Refund permissions
-- Billing restrictions
-- Protected payout settings
-- API-management permissions
-- Approval workflows
-- Security notifications
-- Detailed audit history
+Connect your Pterodactyl server to access management functionality directly through MinecraftConnect.
 
-Sensitive financial and security controls will remain protected through server-side authorization.
+Planned capabilities include:
 
----
+* Start server
+* Stop server
+* Restart server
+* View server status
+* View resource usage
+* View console information
+* Execute authorized commands
+* View server information
 
-## Payments and Payouts
+### SSH
 
-DenxyConnect plans to use regulated payment providers for payment processing, merchant verification, connected accounts, and payouts.
+Advanced server owners will eventually be able to connect supported infrastructure through securely configured SSH integrations.
 
-The platform will not ask merchants to enter raw banking or card information directly into an ordinary DenxyConnect form.
-
-Sensitive payment information should be collected and managed through approved payment-provider interfaces.
-
-DenxyConnect must never store the following information in normal application records or logs:
-
-- Full card numbers
-- Card security codes
-- Raw bank-account numbers
-- Raw routing numbers
-- Identity documents
-- Payment-provider secret keys
-- Unencrypted authentication secrets
-
-Payment and payout features are subject to provider approval, supported countries, legal requirements, risk reviews, and merchant eligibility.
-
-DenxyConnect is not currently presented as a merchant of record. Any future merchant-of-record service would require separate legal, tax, financial, risk, and operational infrastructure.
+Security and permission controls will be treated as a core requirement for remote-management functionality.
 
 ---
 
-## Security Principles
+## 📋 Server Setup Center
 
-Security is part of the platform architecture, not an optional feature.
+Starting a Minecraft server can involve dozens of individual steps.
+
+MinecraftConnect will provide a guided setup system for things such as:
+
+* Server software
+* DNS
+* Domains
+* Proxy configuration
+* Permissions
+* Plugins
+* Voting
+* Store setup
+* Payments
+* Backups
+* Security
+* Performance
+* Staff configuration
+* Server launch preparation
+
+Your dashboard will show what is completed, what still needs attention, and what MinecraftConnect recommends doing next.
+
+---
+
+## 👥 Staff Management
+
+MinecraftConnect is designed for server communities with multiple administrators, developers, moderators, builders, and managers.
+
+Planned staff tools include:
+
+* Staff invitations
+* Custom roles
+* Granular permissions
+* Server-specific permissions
+* Store permissions
+* Billing restrictions
+* Administrative restrictions
+* Activity history
+* Audit logs
+* Security notifications
+
+Server owners should never need to give everyone full access just so they can perform one job.
+
+---
+
+## 🛍️ Storefront & Billing
+
+MinecraftConnect will also provide commerce tools for Minecraft communities.
+
+Planned features include:
+
+* Server storefronts
+* Ranks
+* Packages
+* Cosmetics
+* Memberships
+* Bundles
+* One-time purchases
+* Subscriptions
+* Coupons
+* Gift cards
+* Order management
+* Customer management
+* Revenue analytics
+* Refund management
+* Purchase fulfillment
+* Payment-provider integrations
+
+MinecraftConnect will connect purchases with Minecraft server fulfillment so server owners can understand whether an order was actually delivered.
+
+---
+
+## ⚡ Reliable Command Delivery
+
+Purchases and automated actions should not accidentally execute twice.
+
+MinecraftConnect is being designed around reliable fulfillment concepts including:
+
+* Unique fulfillment IDs
+* Duplicate-delivery protection
+* Idempotent execution
+* Command queues
+* Retry handling
+* Offline player queues
+* Server-specific routing
+* Proxy command support
+* Backend command support
+* Player-server detection
+* Delivery acknowledgements
+* Fulfillment logs
+* Failure diagnostics
+
+---
+
+## 📊 One Dashboard
+
+The MinecraftConnect dashboard is planned to include:
+
+| Area               | Purpose                                  |
+| ------------------ | ---------------------------------------- |
+| 🏠 Overview        | See the health of your Minecraft server  |
+| 🔌 Connections     | Manage connected servers                 |
+| 🧩 Plugins         | View and synchronize plugins             |
+| 🔄 Plugin Syncer   | Find outdated or mismatched plugins      |
+| 📋 Setup           | Track server setup progress              |
+| 🖥️ Server Control | Control connected infrastructure         |
+| 👥 Staff           | Manage your team and permissions         |
+| 🛍️ Store          | Manage packages and purchases            |
+| 💳 Billing         | Manage subscription and payment settings |
+| 📈 Analytics       | Understand server and store activity     |
+| 📜 Logs            | Review important platform activity       |
+| 🔑 API             | Manage integrations and API access       |
+| ⚙️ Settings        | Configure your MinecraftConnect account  |
+
+---
+
+## 🛡️ Security First
+
+Managing a Minecraft server can involve extremely powerful credentials.
+
+MinecraftConnect is being designed with security in mind from the beginning.
 
 Planned protections include:
 
-- Two-factor authentication
-- Secure password hashing
-- Email verification
-- Server-side role enforcement
-- Encrypted network traffic
-- Secure session cookies
-- CSRF protection
-- Rate limiting
-- Signed webhooks
-- Idempotency keys
-- Rotating server credentials
-- Least-privilege API keys
-- Secure secrets management
-- Audit logging
-- Dependency scanning
-- Automated testing
-- Error monitoring
-- Infrastructure monitoring
-- Tested backups
-- Incident-response procedures
-- Responsible security disclosure
+* Two-factor authentication
+* Secure password hashing
+* Email verification
+* Encrypted connections
+* Secure session handling
+* CSRF protection
+* Rate limiting
+* Role-based access controls
+* Scoped API keys
+* Rotating server credentials
+* Signed requests
+* Audit logging
+* Secure secrets management
+* Infrastructure monitoring
+* Automated security testing
 
-Payment movement, authorization, refunds, transfers, payouts, financial ledgers, and webhook processing will require automated tests and experienced human review before production deployment.
+Sensitive credentials should only be accessible to the systems that actually require them.
 
 ---
 
-## Planned Technology
+## 🧑‍💻 Built for Minecraft Server Owners
 
-The initial architecture is expected to include:
+MinecraftConnect is being designed for:
 
-| Area | Planned Technology |
-|---|---|
-| Backend | Python and Django |
-| API | Django REST Framework |
-| Database | PostgreSQL |
-| Cache and Rate Limiting | Redis |
-| Background Processing | Durable worker queues |
-| Payment Infrastructure | Stripe Connect or another compliant provider |
-| Game Integration | Signed proxy and backend connectors |
-| Media Storage | Secure object storage |
-| Deployment | Containerized staging and production environments |
-| Monitoring | Centralized logs, metrics, alerts, and error tracking |
-| Documentation | Public API and integration documentation |
+* Survival servers
+* SMP communities
+* Skyblock servers
+* Prison servers
+* Minigame networks
+* Lifesteal servers
+* RPG servers
+* Creative servers
+* Proxy networks
+* Growing Minecraft communities
+* New server owners
+* Professional server networks
 
-Technology choices may change as the platform is tested and reviewed.
-
----
-
-## API and Integration Goals
-
-DenxyConnect is intended to provide a developer-friendly integration model.
-
-Planned developer features include:
-
-- Documented REST APIs
-- Signed webhooks
-- Scoped API keys
-- Test events
-- Sandbox or test-mode workflows
-- Plugin templates
-- Adapter examples
-- Integration health checks
-- Webhook delivery logs
-- API usage limits
-- Versioned API behavior
-- Clear error responses
-- SDK examples
-
-Integrations should be testable without requiring real customer purchases.
+Whether you're managing your first Paper server or operating an entire Minecraft network, MinecraftConnect aims to grow with you.
 
 ---
 
-## Development Roadmap
+## 🛠️ Technology
 
-### Phase 1: Research and Validation
+MinecraftConnect is being developed using a modern web and server architecture.
 
-- Interview server owners
-- Validate major customer problems
-- Test pricing assumptions
-- Recruit early design partners
-- Finalize the legal and payment model
-- Create dashboard and onboarding prototypes
-- Publish the initial landing page and waitlist
+```text
+Backend          Python / Django
+API              Django REST Framework
+Database         PostgreSQL
+Cache            Redis
+Server Connector Java / Paper
+Payments         Stripe
+Infrastructure   Pterodactyl / SSH integrations
+Frontend         Django + Bootstrap / modern JavaScript
+Monitoring       Logs, metrics, health checks & alerts
+```
 
-### Phase 2: Core Platform
-
-- Account registration and authentication
-- Organizations and stores
-- Product and package management
-- Team roles and permissions
-- Test checkout
-- Orders and customers
-- Audit logging
-- Server authentication
-- Fulfillment queues
-- First game connector
-
-### Phase 3: Private Alpha
-
-- Support a limited number of trusted stores
-- Test fulfillment reliability
-- Add payment-provider onboarding in test mode
-- Validate refunds and reconciliation
-- Record failures and support requests
-- Improve merchant onboarding
-- Add diagnostics and monitoring
-
-### Phase 4: Closed Beta
-
-- Introduce limited live payments after approval
-- Add themes and custom domains
-- Add coupons and gift cards
-- Improve analytics
-- Add migration tools
-- Publish documentation
-- Launch a public status page
-- Expand to selected beta merchants
-
-### Phase 5: Public Launch
-
-- Open self-service registration
-- Release stable Minecraft integrations
-- Introduce paid plans
-- Provide migration assistance
-- Establish hosting and developer partnerships
-- Measure activation, retention, fulfillment reliability, and support quality
-
-### Future Development
-
-- Additional game adapters
-- Subscription fulfillment
-- Customer accounts
-- Store credit
-- Advanced package conditions
-- Affiliate and creator codes
-- Discord role delivery
-- Localized storefronts
-- Multi-currency display
-- Agency workspaces
-- Visual automation workflows
-- Verified integration marketplace
-- Advanced fraud controls
-- Enterprise access controls
+Technology choices may evolve as MinecraftConnect grows.
 
 ---
 
-## Project Status
+## 🗺️ Development Roadmap
 
-> DenxyConnect is currently under active planning and development.
+### Phase 1 — Foundation
 
-The platform is not yet ready for production merchants or public payment processing.
+* [x] MinecraftConnect product direction
+* [x] Minecraft-focused platform architecture
+* [ ] Authentication system
+* [ ] Main dashboard
+* [ ] Server onboarding
+* [ ] Guided setup system
 
-Features described in this README represent the intended direction of the project. Availability, pricing, supported games, payment providers, and release dates may change during development and testing.
+### Phase 2 — Minecraft Connector
 
-Repositories may remain private while security-sensitive systems are being developed and reviewed.
+* [ ] `minecraftconnect-paper.jar`
+* [ ] Secure pairing
+* [ ] Heartbeat system
+* [ ] Server status
+* [ ] Minecraft version reporting
+* [ ] Player count reporting
+* [ ] Plugin scanning
+* [ ] Plugin inventory synchronization
 
----
+### Phase 3 — Plugin Syncer
 
-## Launch Requirements
+* [ ] Plugin version tracking
+* [ ] Update detection
+* [ ] Compatibility information
+* [ ] Plugin recommendations
+* [ ] Plugin health diagnostics
 
-DenxyConnect will only be considered ready for public use when:
+### Phase 4 — Server Management
 
-- Merchants can identify who operates the service
-- Payment-provider onboarding works securely
-- Sensitive banking information is not stored by DenxyConnect
-- Merchants can connect a supported game server
-- Merchants can create and publish packages
-- Test payments can be completed successfully
-- Fulfillment delivery can be verified
-- Duplicate events cannot duplicate rewards
-- Payment and fulfillment activity can be audited
-- Refunds, disputes, payouts, and transfers can be reconciled
-- Support staff can safely diagnose failures
-- Security and incident-response procedures have been tested
-- Legal policies are publicly available
-- Backup restoration has been tested
-- Beta merchants have validated the core workflow
+* [ ] Pterodactyl connection
+* [ ] Server controls
+* [ ] Server resource information
+* [ ] Console integration
+* [ ] Secure command execution
+* [ ] SSH integration
 
----
+### Phase 5 — Operations
 
-## Brand Independence
+* [ ] Staff management
+* [ ] Roles and permissions
+* [ ] Audit logs
+* [ ] Storefront management
+* [ ] Billing
+* [ ] Purchase fulfillment
+* [ ] Analytics
 
-DenxyConnect is an independently developed platform.
+### Future
 
-It is not affiliated with, endorsed by, sponsored by, or operated by Tebex or Overwolf.
-
-DenxyConnect may compete within the same broad game-commerce market, but it will use its own:
-
-- Source code
-- Product architecture
-- Brand identity
-- Logo and visual language
-- Interface design
-- Documentation
-- Terminology
-- Pricing model
-- Integrations
-- Merchant workflows
-
-The product will be developed around customer needs and measurable platform reliability rather than copying another company’s protected content or branding.
-
----
-
-## Contributing
-
-DenxyConnect is not currently accepting unrestricted public code contributions.
-
-Future contribution opportunities may include:
-
-- Game adapters
-- Connector plugins
-- SDK examples
-- Documentation improvements
-- Translation support
-- Theme development
-- Integration testing
-- Bug reports
-- Security reports
-
-Contribution guidelines will be published when public collaboration becomes available.
+* [ ] Advanced server monitoring
+* [ ] Automated diagnostics
+* [ ] Backup integrations
+* [ ] Minecraft server discovery
+* [ ] Voting integrations
+* [ ] Discord integrations
+* [ ] Advanced automation
+* [ ] Developer API
+* [ ] Integration marketplace
 
 ---
 
-## Responsible Disclosure
+## 💙 Why MinecraftConnect?
 
-Security issues should not be reported through public GitHub issues.
+Minecraft server owners often depend on a collection of unrelated tools.
 
-Please privately report suspected vulnerabilities to:
+One tool handles hosting.
 
-**security@denxyconnect.com**
+Another handles plugins.
 
-Include:
+Another handles payments.
 
-- A clear description of the issue
-- The affected feature or endpoint
-- Reproduction steps
-- Potential impact
-- Screenshots or logs with sensitive information removed
-- Suggested remediation, when available
+Another handles staff.
 
-Do not access customer data, interrupt services, perform destructive testing, or publicly disclose unresolved vulnerabilities.
+Another handles monitoring.
 
----
+Another handles documentation.
 
-## Contact
+MinecraftConnect wants to bring those workflows together.
 
-### General Questions
-
-**Email:** hello@denxyconnect.com
-
-### Merchant Support
-
-**Email:** support@denxyconnect.com
-
-### Security Reports
-
-**Email:** security@denxyconnect.com
-
-### Business and Partnerships
-
-**Email:** partnerships@denxyconnect.com
+> **Less dashboard hopping. More server building.**
 
 ---
 
-## Legal
+## 📚 Documentation
 
-DenxyConnect’s public legal documentation will include:
+MinecraftConnect documentation will cover:
 
-- Terms of Service
-- Privacy Policy
-- Acceptable Use Policy
-- Prohibited Products Policy
-- Refund Policy
-- Cookie Policy
-- Security Information
-- Data Processing Information
-- Intellectual Property Complaint Process
-
-Final policies must be reviewed by qualified legal and financial professionals before public payment processing begins.
+* Getting started
+* Connecting a Paper server
+* Installing MinecraftConnect Connector
+* Plugin Syncer
+* Pterodactyl setup
+* Server management
+* Store setup
+* Staff permissions
+* API usage
+* Security
+* Troubleshooting
 
 ---
 
-## License
+## 🤝 Contributing
 
-Unless a repository explicitly states otherwise, DenxyConnect source code, branding, documentation, and visual assets are not licensed for copying, redistribution, resale, or commercial reuse.
+MinecraftConnect is currently under active development.
 
-Individual public repositories may use their own open-source licenses.
+Public contribution opportunities may eventually include:
 
-Copyright © 2026 DenxyConnect. All rights reserved.
+* Minecraft connectors
+* Integrations
+* Documentation
+* SDK examples
+* Plugin compatibility data
+* Bug reports
+* Security reports
+* Developer tools
+
+Contribution guidelines will be published as the project gets closer to public release.
+
+---
+
+## ⚠️ Project Status
+
+> **MinecraftConnect is currently under active development.**
+
+Features shown here represent the intended direction of the platform and may change as MinecraftConnect is developed, tested, and improved.
+
+MinecraftConnect is not currently intended for production-critical server management until the appropriate systems have been thoroughly tested.
+
+---
+
+## 📬 Contact
+
+### General
+
+**[hello@minecraftconnect.com](mailto:hello@minecraftconnect.com)**
+
+### Support
+
+**[support@minecraftconnect.com](mailto:support@minecraftconnect.com)**
+
+### Security
+
+**[security@minecraftconnect.com](mailto:security@minecraftconnect.com)**
+
+### Partnerships
+
+**[partnerships@minecraftconnect.com](mailto:partnerships@minecraftconnect.com)**
+
+---
+
+<div align="center">
+
+## ⛏️ MinecraftConnect
+
+### Your Minecraft server. One dashboard.
+
+**Setup • Plugins • Servers • Staff • Store • Billing • Analytics**
+
+[Visit MinecraftConnect](https://minecraftconnect.com)
+
+<br>
+
+Copyright © 2026 MinecraftConnect. All rights reserved.
+
+</div>

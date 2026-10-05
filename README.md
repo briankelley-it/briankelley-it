@@ -6,7 +6,7 @@
 
 **Build it. Ship it. Own it.**
 
-I'm a self-taught Python developer who builds real things: backend services, automation, databases and the web pages on top of them. Every project here is something I built, tested and can explain line by line.
+I'm a self-taught Python developer from Cypress, Texas. I love building things that work in the real world: backend services, automation, databases and the web pages on top of them. I learn by doing, I finish what I start, and I can explain every line I write.
 
 [Portfolio](https://briankelley-it.github.io) • [LinkedIn](https://linkedin.com/in/[your-linkedin]) • [Email](mailto:briankelley141@gmail.com) • Cypress, TX (CST) • Open to remote
 
@@ -16,11 +16,12 @@ I'm a self-taught Python developer who builds real things: backend services, aut
 
 ## 🧑‍💻 About Me
 
-* 🎯 **Goal:** Junior Full Stack or Backend Python Developer (Django)
+* 🎯 **Goal:** Junior Full Stack or Backend Python Developer (Django), growing into a strong full stack engineer
 * 🐍 **Main language:** Python, with SQL close behind
-* 🔧 **I like:** turning repetitive work into automation, designing clean database tables, and debugging until I know *why* it broke
-* 🚀 **How I work:** small commits, clear READMEs, and I own what I build from first line to production
-* 🤖 **How I use AI:** I use Claude Code and other AI assistants to move faster, then I read, test and understand every line before it ships
+* 🔧 **I like:** turning repetitive work into automation, designing clean database tables, and debugging until I know *why* something broke
+* 🚀 **How I work:** small commits, clear documentation, and I own what I build from the first line to production
+* 🤝 **What I bring:** years of fast-paced, customer-facing work taught me reliability, teamwork and staying calm under pressure
+* 🤖 **How I use AI:** I use Claude Code and other AI assistants to learn and move faster, then I read, test and understand every line before it ships
 * 📚 **Currently learning:** Django REST Framework, CI/CD with GitHub Actions, automated testing with pytest
 
 ---
@@ -47,55 +48,23 @@ Cloud       AWS (S3, Glue, Athena)
 
 ---
 
-## 📂 Projects
-
-### 💸 Expense Tracker (Python + MySQL)
-A command-line app that adds, stores and reports on expenses, backed by a MySQL database with a schema I designed.
-
-`Python` `MySQL` `SQL`
-
-➡️ [Expense-tracker-with-MySQL](https://github.com/briankelley-it/Expense-tracker-with-MySQL)
-
-### 🔁 MinecraftConnect: Multi-Server Management Platform
-A backend automation platform that controls many game servers from one hub: config sync, plugin syncing, version tracking and rollback history. It uses a secure outbound-only agent, so customers never hand over panel or server access. Includes an API, webhooks, team roles and a Pterodactyl panel integration.
-
-`Automation` `APIs` `Webhooks` `Linux`
-
-➡️ [minecraftconnect.com](https://minecraftconnect.com)
-
-### 🖥️ CopperKeep: Live Linux-Hosted Server
-A public, always-on multiplayer server I run end to end: plugins, permissions, scheduled automation, logs, domain and DNS, and a connected payment store.
-
-`Linux` `DNS` `Automation` `Production support`
-
-➡️ play.copperkeep.org
-
-### 🌐 Developer Portfolio
-My personal site, deployed on GitHub Pages.
-
-`HTML` `CSS` `GitHub Pages`
-
-➡️ [briankelley-it.github.io](https://briankelley-it.github.io)
-
----
-
-## 🗺️ Roadmap
+## 🗺️ My Learning Roadmap
 
 ### Phase 1: Foundation
-* [x] GitHub portfolio and GitHub Pages site live
-* [x] Python + MySQL expense tracker on GitHub
-* [ ] Clean READMEs with screenshots for every repo
+* [x] GitHub profile and portfolio site live
+* [x] Python and SQL fundamentals
+* [ ] Clean, documented code habits on every repo
 
 ### Phase 2: Full Stack Django
-* [ ] Django web app with user login, PostgreSQL and Django templates
-* [ ] REST API for it with Django REST Framework
-* [ ] Celery background jobs (emails, scheduled tasks)
-* [ ] Run the whole app with Docker Compose
+* [ ] Django apps with user login, PostgreSQL and templates
+* [ ] REST APIs with Django REST Framework
+* [ ] Background jobs with Celery
+* [ ] Running full apps with Docker Compose
 
 ### Phase 3: Production Habits
-* [ ] Tests with pytest
-* [ ] CI/CD with GitHub Actions (test and lint on every push)
-* [ ] Deploy a live demo to a Linux server
+* [ ] Testing with pytest
+* [ ] CI/CD with GitHub Actions
+* [ ] Deploying live apps to Linux servers
 
 ### Phase 4: Career
 * [ ] Land my first Junior Python / Django Developer role
@@ -107,7 +76,7 @@ My personal site, deployed on GitHub Pages.
 
 Python runs the web apps, automations and AI tools people use every day. I want to be the developer who builds them, ships them and keeps them running.
 
-> **Clean code. Real projects. Always shipping.**
+> **Clean code. Always learning. Always shipping.**
 
 ---
 

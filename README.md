@@ -2,13 +2,13 @@
 
 # 👋 Hi, I'm Brian Kelley
 
-### Aspiring Data Center Technician | Hardware • Linux • Networking • MySQL
+### Full Stack Python Developer | Django • Celery • Docker • PostgreSQL • REST APIs
 
-**Build. Break. Fix. Document.**
+**Build it. Ship it. Own it.**
 
-I'm a hands-on, self-taught tech learner working toward a career in data centers and IT infrastructure. Every project here is something I built myself, tested myself, and wrote up step by step.
+I'm a self-taught Python developer who builds real things: backend services, automation, databases and the web pages on top of them. Every project here is something I built, tested and can explain line by line.
 
-[LinkedIn](https://linkedin.com/in/[your-linkedin]) • [Email](mailto:[your.email@gmail.com]) • Open to relocating to Phoenix, AZ
+[Portfolio](https://briankelley-it.github.io) • [LinkedIn](https://linkedin.com/in/[your-linkedin]) • [Email](mailto:briankelley141@gmail.com) • Cypress, TX (CST) • Open to remote
 
 </div>
 
@@ -16,89 +16,98 @@ I'm a hands-on, self-taught tech learner working toward a career in data centers
 
 ## 🧑‍💻 About Me
 
-* 🎯 **Goal:** Data Center Technician, then cloud and database infrastructure
-* 🔧 **I like:** taking hardware apart, finding out why something broke, and fixing it the right way
-* 📝 **How I work:** every build and repair gets a log: **Problem, Steps Taken, Result, What I Learned**
-* 🤖 **How I use AI:** as a study partner to learn faster and understand error messages. I always test every fix myself and make sure I can explain why it works.
-* 📚 **Currently studying:** CompTIA A+, Microsoft Azure Fundamentals (AZ-900)
+* 🎯 **Goal:** Junior Full Stack or Backend Python Developer (Django)
+* 🐍 **Main language:** Python, with SQL close behind
+* 🔧 **I like:** turning repetitive work into automation, designing clean database tables, and debugging until I know *why* it broke
+* 🚀 **How I work:** small commits, clear READMEs, and I own what I build from first line to production
+* 🤖 **How I use AI:** I use Claude Code and other AI assistants to move faster, then I read, test and understand every line before it ships
+* 📚 **Currently learning:** Django REST Framework, CI/CD with GitHub Actions, automated testing with pytest
 
 ---
 
-## 🛠️ Skills
+## 🛠️ Tech Stack
 
-| Area               | What I work with                                                   |
-| ------------------ | ------------------------------------------------------------------ |
-| 🖥️ Hardware        | CPU, RAM, storage drives, power supplies, motherboards, ESD safety |
-| 🔍 Troubleshooting | POST and boot issues, isolating failed parts, reading logs         |
-| 🌐 Networking      | Ethernet cabling (Cat6), crimping and testing, labeling, IP basics |
-| 🐧 Operating Systems | Windows 10/11, Ubuntu Server, Linux command line                 |
-| 🗄️ Databases       | MySQL: users, permissions, backups (mysqldump), restores          |
-| 📋 Work Practices  | Ticket-style documentation, following procedures, asset tracking   |
+| Area                  | What I work with                                                      |
+| --------------------- | --------------------------------------------------------------------- |
+| 🐍 Backend            | Python 3, Django, Django shell and debugging, REST APIs, webhooks     |
+| ⚙️ Background jobs    | Celery task queues, scheduled jobs, process automation                |
+| 🗄️ Databases          | PostgreSQL, MySQL, schema design, SQL queries                         |
+| 🎨 Frontend           | HTML, CSS, Django templates, responsive layouts, light/dark themes    |
+| 🐳 DevOps             | Docker, Linux servers, DNS, remote logs (Kibana / OpenSearch)         |
+| ☁️ Data and cloud     | AWS (S3, Glue, Athena), dbt, Airflow                                  |
+| 🧰 Tools              | Git, GitHub, GitHub Pages, VS Code, Claude Code                       |
 
 ```text
-Hardware     PC building, part replacement, diagnostics
-OS           Windows 10/11, Ubuntu Server
-Database     MySQL
-Networking   Cat6 cabling, home network setup, draw.io diagrams
-Tools        GitHub, VirtualBox, MySQL Workbench
+Backend     Python, Django, Celery, REST APIs
+Database    PostgreSQL, MySQL
+Frontend    HTML, CSS, Django templates
+DevOps      Docker, Linux, Git, GitHub
+Cloud       AWS (S3, Glue, Athena)
 ```
 
 ---
 
-## 📂 Personal Projects
+## 📂 Projects
 
-### 🖥️ PC Build and Repair Log
-Rebuilding and troubleshooting desktop computers, with photos of every step and a short video explaining each part.
+### 💸 Expense Tracker (Python + MySQL)
+A command-line app that adds, stores and reports on expenses, backed by a MySQL database with a schema I designed.
 
-➡️ `[link to repo]`
+`Python` `MySQL` `SQL`
 
-### 🗄️ Home Server and MySQL Backup Lab
-Ubuntu Server with MySQL: creating users, setting permissions, running backups, and proving a full restore works.
+➡️ [Expense-tracker-with-MySQL](https://github.com/briankelley-it/Expense-tracker-with-MySQL)
 
-➡️ `[link to repo]`
+### 🔁 MinecraftConnect: Multi-Server Management Platform
+A backend automation platform that controls many game servers from one hub: config sync, plugin syncing, version tracking and rollback history. It uses a secure outbound-only agent, so customers never hand over panel or server access. Includes an API, webhooks, team roles and a Pterodactyl panel integration.
 
-### 🌐 Home Network and Cabling Project
-Making and testing Cat6 cables, labeling devices, and mapping my home network with a diagram.
+`Automation` `APIs` `Webhooks` `Linux`
 
-➡️ `[link to repo]`
+➡️ [minecraftconnect.com](https://minecraftconnect.com)
+
+### 🖥️ CopperKeep: Live Linux-Hosted Server
+A public, always-on multiplayer server I run end to end: plugins, permissions, scheduled automation, logs, domain and DNS, and a connected payment store.
+
+`Linux` `DNS` `Automation` `Production support`
+
+➡️ play.copperkeep.org
+
+### 🌐 Developer Portfolio
+My personal site, deployed on GitHub Pages.
+
+`HTML` `CSS` `GitHub Pages`
+
+➡️ [briankelley-it.github.io](https://briankelley-it.github.io)
 
 ---
 
-## 🗺️ My Learning Roadmap
+## 🗺️ Roadmap
 
 ### Phase 1: Foundation
+* [x] GitHub portfolio and GitHub Pages site live
+* [x] Python + MySQL expense tracker on GitHub
+* [ ] Clean READMEs with screenshots for every repo
 
-* [ ] GitHub portfolio set up
-* [ ] PC build or repair documented with photos and video
-* [ ] Home server running Ubuntu Server
+### Phase 2: Full Stack Django
+* [ ] Django web app with user login, PostgreSQL and Django templates
+* [ ] REST API for it with Django REST Framework
+* [ ] Celery background jobs (emails, scheduled tasks)
+* [ ] Run the whole app with Docker Compose
 
-### Phase 2: Databases and Networking
-
-* [ ] MySQL installed, users and permissions configured
-* [ ] Backup and full restore tested and documented
-* [ ] Cat6 cables made, tested, and labeled
-* [ ] Home network diagram created
-
-### Phase 3: Certifications
-
-* [ ] CompTIA A+ Core 1
-* [ ] CompTIA A+ Core 2
-* [ ] Microsoft Azure Fundamentals (AZ-900)
+### Phase 3: Production Habits
+* [ ] Tests with pytest
+* [ ] CI/CD with GitHub Actions (test and lint on every push)
+* [ ] Deploy a live demo to a Linux server
 
 ### Phase 4: Career
-
-* [ ] Land my first Data Center Technician role
-* [ ] Grow into cloud and database infrastructure
+* [ ] Land my first Junior Python / Django Developer role
+* [ ] Grow into a strong full stack engineer
 
 ---
 
-## 💙 Why Data Centers?
+## 💙 Why Python?
 
-Every website, app, and AI tool people use every day runs on physical servers somewhere.
+Python runs the web apps, automations and AI tools people use every day. I want to be the developer who builds them, ships them and keeps them running.
 
-I want to be one of the people who keeps them running.
-
-> **Reliable hands. Clear notes. Always learning.**
+> **Clean code. Real projects. Always shipping.**
 
 ---
 
@@ -106,7 +115,7 @@ I want to be one of the people who keeps them running.
 
 ### 📬 Let's Connect
 
-[LinkedIn](https://linkedin.com/in/[your-linkedin]) • [Email](mailto:[your.email@gmail.com])
+[Portfolio](https://briankelley-it.github.io) • [LinkedIn](https://linkedin.com/in/[your-linkedin]) • [Email](mailto:briankelley141@gmail.com)
 
 **Thanks for visiting my GitHub!**
 

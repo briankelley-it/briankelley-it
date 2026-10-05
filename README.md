@@ -8,7 +8,7 @@
 
 I'm a self-taught Python developer from Cypress, Texas. I love building things that work in the real world: backend services, automation, databases and the web pages on top of them. I learn by doing, I finish what I start, and I can explain every line I write.
 
-[Portfolio](https://briankelley-it.github.io) • [LinkedIn](https://linkedin.com/in/[your-linkedin]) • [Email](mailto:briankelley141@gmail.com) • Cypress, TX (CST) • Open to remote
+📍 Cypress, TX (CST) • Open to remote
 
 </div>
 
@@ -81,10 +81,6 @@ Python runs the web apps, automations and AI tools people use every day. I want 
 ---
 
 <div align="center">
-
-### 📬 Let's Connect
-
-[Portfolio](https://briankelley-it.github.io) • [LinkedIn](https://linkedin.com/in/[your-linkedin]) • [Email](mailto:briankelley141@gmail.com)
 
 **Thanks for visiting my GitHub!**
 

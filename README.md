@@ -18,6 +18,40 @@
 
 ---
 
+## 🚀 Recent Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/briankelley-it/briankelley-it.github.io"><img src="https://github-readme-stats.vercel.app/api/pin/?username=briankelley-it&repo=briankelley-it.github.io&theme=tokyonight&hide_border=true" alt="briankelley-it.github.io"></a>
+      <br><b>🌐 Portfolio Site</b>: My developer portfolio with my projects, skills and contact info, hosted on GitHub Pages.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/briankelley-it/ThistledownHomes"><img src="https://github-readme-stats.vercel.app/api/pin/?username=briankelley-it&repo=ThistledownHomes&theme=tokyonight&hide_border=true" alt="ThistledownHomes"></a>
+      <br><b>🏡 Thistledown Homes</b>: Django demo website for a fictional real estate investor. Filterable listings, saved homes, a map with price pins, and a contact form.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/briankelley-it/TaskForge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=briankelley-it&repo=TaskForge&theme=tokyonight&hide_border=true" alt="TaskForge"></a>
+      <br><b>📋 TaskForge</b>: Fast, server-rendered Kanban board for small teams. Django, HTMX, Tailwind CSS, PostgreSQL and Docker Compose, with CI on every push.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/briankelley-it/LedgerAPI"><img src="https://github-readme-stats.vercel.app/api/pin/?username=briankelley-it&repo=LedgerAPI&theme=tokyonight&hide_border=true" alt="LedgerAPI"></a>
+      <br><b>💸 LedgerAPI</b>: Expense tracker REST API built with Django REST Framework. JWT auth, per-user data isolation, decimal-safe money, budgets and spending reports. PostgreSQL, Docker, CI and coverage.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/briankelley-it/OpsKit"><img src="https://github-readme-stats.vercel.app/api/pin/?username=briankelley-it&repo=OpsKit&theme=tokyonight&hide_border=true" alt="OpsKit"></a>
+      <br><b>🧰 OpsKit</b>: Linux automation command-line toolkit for everyday server tasks.
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
+</table>
+
+---
+
 ## 🧑‍💻 About Me
 
 I'm a self-taught Python developer from Cypress, Texas. I build things that work in the real world: backend services, REST APIs, automation, databases and the web pages on top of them. I learn by doing, I finish what I start, and I can explain every line I write.
@@ -48,33 +82,6 @@ I'm a self-taught Python developer from Cypress, Texas. I build things that work
 | 🐳 **DevOps** | Docker, Docker Compose, Linux, GitHub Actions CI, logs (Kibana / OpenSearch) |
 | ☁️ **Data and cloud** | AWS (S3, Glue, Athena), dbt, Airflow |
 | 🧰 **Tools** | Git, GitHub, VS Code, ruff, pytest, Claude Code |
-
----
-
-## 🚀 Featured Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/briankelley-it/LedgerAPI"><img src="https://github-readme-stats.vercel.app/api/pin/?username=briankelley-it&repo=LedgerAPI&theme=tokyonight&hide_border=true" alt="LedgerAPI"></a>
-      <br><b>💸 LedgerAPI</b>: Expense tracker REST API built with Django REST Framework. JWT auth, per-user data isolation, decimal-safe money, budgets and spending reports. PostgreSQL, Docker, CI and coverage.
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/briankelley-it/TaskForge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=briankelley-it&repo=TaskForge&theme=tokyonight&hide_border=true" alt="TaskForge"></a>
-      <br><b>📋 TaskForge</b>: Fast, server-rendered Kanban board for small teams. Django, HTMX, Tailwind CSS, PostgreSQL and Docker Compose, with CI on every push.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/briankelley-it/ThistledownHomes"><img src="https://github-readme-stats.vercel.app/api/pin/?username=briankelley-it&repo=ThistledownHomes&theme=tokyonight&hide_border=true" alt="ThistledownHomes"></a>
-      <br><b>🏡 Thistledown Homes</b>: Django demo website for a fictional real estate investor. Filterable listings, saved homes, a map with price pins, and a contact form.
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/briankelley-it/OpsKit"><img src="https://github-readme-stats.vercel.app/api/pin/?username=briankelley-it&repo=OpsKit&theme=tokyonight&hide_border=true" alt="OpsKit"></a>
-      <br><b>🧰 OpsKit</b>: Linux automation command-line toolkit for everyday server tasks.
-    </td>
-  </tr>
-</table>
 
 ---
 

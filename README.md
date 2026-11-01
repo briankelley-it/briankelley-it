@@ -25,7 +25,7 @@ I'm **actively looking for my first Data Engineering role** and can start interv
 | | |
 | --- | --- |
 | 💼 **Roles** | Junior Data Engineer · Analytics Engineer · ETL / Data Pipeline Developer · Python Data Developer |
-| 🌎 **Location** | Remote (US) or hybrid / on-site in the Houston area |
+| 🌎 **Location** | Remote (US) |
 | 🕒 **Time zone** | Central (CST) |
 | 📬 **Reach me** | [briankelley141@gmail.com](mailto:briankelley141@gmail.com) |
 
